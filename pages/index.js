@@ -17,20 +17,10 @@ export default function Home() {
       <div className={styles.container}>
         <main className={styles["page-wrapper"]}>
           <div className={styles["title-logo"]}>
-            <img
-              src="/assets/title-logo.png"
-              width={650}
-              height={80}
-              alt="Logo"
-            />
+            <img src="/assets/title-logo.png" alt="Logo" />
           </div>
           <div className={styles["title-member"]}>
-            <img
-              src="/assets/title-member.png"
-              width={280}
-              height={40}
-              alt="Logo"
-            />
+            <img src="/assets/title-member.png" alt="Logo" />
           </div>
           <div className={styles["member-list"]}>
             {members.map((member, index) => (
