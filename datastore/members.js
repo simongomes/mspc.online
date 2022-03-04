@@ -6,7 +6,7 @@ export const members = [
   },
   {
     name: "রাফায়েল বিশাল গমেজ",
-    image: "/assets/members/Bishal.JPG",
+    image: "/assets/members/bishal.jpg",
     position: "সহ-সভাপতি",
   },
   {
