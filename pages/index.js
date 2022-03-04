@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import { members } from "../datastore/members";
 
@@ -18,7 +17,7 @@ export default function Home() {
       <div className={styles.container}>
         <main className={styles["page-wrapper"]}>
           <div className={styles["title-logo"]}>
-            <Image
+            <img
               src="/assets/title-logo.png"
               width={650}
               height={80}
@@ -26,7 +25,7 @@ export default function Home() {
             />
           </div>
           <div className={styles["title-member"]}>
-            <Image
+            <img
               src="/assets/title-member.png"
               width={280}
               height={40}
@@ -37,7 +36,7 @@ export default function Home() {
             {members.map((member, index) => (
               <div className={styles["member-item"]} key={index}>
                 <div className={styles.thumbnail}>
-                  <Image
+                  <img
                     className={styles["member-image"]}
                     src={member.image}
                     width={150}
